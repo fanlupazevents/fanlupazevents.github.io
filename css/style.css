@@ -1,0 +1,97 @@
+#header {
+    background: url() center center / cover no-repeat;
+
+}
+
+.display-3 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #00c6c7;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    /*center*/
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgb(205, 199, 22);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+    /*imagen uniforme*/
+    height: 410px;
+    object-fit: scale-up;
+}
+
+.card {
+    border: 0;
+    border-radius: 0;
+    background: rgba(193, 18, 184, 0.5);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/*.card-text {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 0.5;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px #b9935a;
+}*/
+
+.card-footer {
+    background: #b9935a;
+    color: rgb(177, 15, 15);
+    text-align: center;
+    box-shadow: 0 0 200px #228aa1d0;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    line-height: 0.5;
+    color: #ddc88f;
+    text-shadow: 0 0 1px #228aa1ea;
+    font-style: bold;
+}
+
+#mas {
+    background: #00c6c7;
+}
+
+#mas:hover {
+    background: #00c6c7;
+    color: #fff;
+}
+
+
+html,
+body {
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00c7c713;
+    width: 100%;
+    height: 100%;
+}
+
+.description-heading {
+    line-height: 17;
+    color: rgb(255, 255, 255);
+}
+
+.description-body {
+    line-height: 17;
+    color: rgb(255, 255, 255);
+}
+
+/* redondear imagen */
+.lightbox img {
+    border-style: groove; 
+    border-color: #000000;
+
+}
